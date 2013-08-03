@@ -43,13 +43,13 @@ If you have any good idea's on how my set of standards might be improved, please
 	</li>
 </ul>
 
-<hr>
+***
 
 #Preliminaries - Setting Your Editor
 ### Line Endings
 Choose one type of line endings for the project you and the rest of the team is working on. UNIX line endings are most common type and generally recommended for avoiding problems that might arise when the document migrates between users, and operating systems.
 
-<hr>
+***
 
 ### Encoding
 UTF-8 encoding dominated the Wold Wide Web and is generally the most recommended option when it come's to encoding. UTF-8 can for example prevent you from issues common for data migration.
@@ -59,12 +59,12 @@ UTF-8 encoding dominated the Wold Wide Web and is generally the most recommended
 * <a target="_blank" href="http://www.utf8everywhere.org/">UTF-8 Everywhere</a>
 * <a target="_blank" href="http://annevankesteren.nl/2009/09/utf-8-reasons">Technical Reasons To Use UTF-8</a>
 
-<hr>
+***
 
 ## Tabs
 I do not use spaces to for indentation in HTML. I use 1 tab instead and recommend that to others as a general rule.
 
-<hr>
+***
 
 ## HTML Coding Standards
 ### Doctype

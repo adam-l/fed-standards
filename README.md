@@ -1,5 +1,5 @@
 # Coding Standards
-Below is a set of my personal coding standards, guidelines and best practices that I made for myself and for recommending to others. These are the result of many years of experience in working on a variety of online projects with a variety of professionals.
+1Below is a set of my personal coding standards, guidelines and best practices that I made for myself and for recommending to others. These are the result of many years of experience in working on a variety of online projects with a variety of professionals.
 
 If you have any good idea's on how my set of standards might be improved, please don't hesitate to share those with me. I am always open to hear suggestions of this sort.
 
@@ -46,7 +46,7 @@ If you have any good idea's on how my set of standards might be improved, please
 <hr>
 
 #Preliminaries - Setting Your Editor
-<h3 id="line-endings">Line Endings</h3>
+### Line Endings
 Choose one type of line endings for the project you and the rest of the team is working on. UNIX line endings are most common type and generally recommended for avoiding problems that might arise when the document migrates between users, and operating systems.
 
 <hr>

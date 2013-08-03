@@ -1,5 +1,5 @@
 # Coding Standards
-1Below is a set of my personal coding standards, guidelines and best practices that I made for myself and for recommending to others. These are the result of many years of experience in working on a variety of online projects with a variety of professionals.
+Below is a set of my personal coding standards, guidelines and best practices that I made for myself and for recommending to others. These are the result of many years of experience in working on a variety of online projects with a variety of professionals.
 
 If you have any good idea's on how my set of standards might be improved, please don't hesitate to share those with me. I am always open to hear suggestions of this sort.
 
@@ -55,11 +55,9 @@ Choose one type of line endings for the project you and the rest of the team is 
 UTF-8 encoding dominated the Wold Wide Web and is generally the most recommended option when it come's to encoding. UTF-8 can for example prevent you from issues common for data migration.
 
 #### Resources:
-<ol>
-	<li><a target="_blank" href="http://googleblog.blogspot.com/2010/01/unicode-nearing-50-of-web.html">Google Official Blog: Unicode nearing 50% of the web</a></li>
-	<li><a target="_blank" href="http://www.utf8everywhere.org/">UTF-8 Everywhere</a></li>
-	<li><a target="_blank" href="http://annevankesteren.nl/2009/09/utf-8-reasons">Technical Reasons To Use UTF-8</a></li>
-</ol>
+* <a target="_blank" href="http://googleblog.blogspot.com/2010/01/unicode-nearing-50-of-web.html">Google Official Blog: Unicode nearing 50% of the web</a>
+* <a target="_blank" href="http://www.utf8everywhere.org/">UTF-8 Everywhere</a>
+* <a target="_blank" href="http://annevankesteren.nl/2009/09/utf-8-reasons">Technical Reasons To Use UTF-8</a>
 
 <hr>
 

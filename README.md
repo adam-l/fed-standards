@@ -113,9 +113,9 @@ __XHTML 1.0 Doctype__
 </div>
 
 __HTML5 Doctype__
-<div class="highlight highlight-HTML">
+```
 	<pre>&lt;!DOCTYPE html&gt;</pre>
-</div>
+```
 
 
 ***

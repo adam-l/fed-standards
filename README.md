@@ -102,19 +102,19 @@ I do not use many plugins when I write code. One plugin that I personally find v
 Enforce standards mode in web browser by putting a doctype at the beginning of your HTML document. Having the doctype is also neccessary for validating against HTML and XHTML specifications.
 
 __HTML 4.01 Doctype__
-<div class="highlight highlight-HTML">
-	<pre>&lt;DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</pre>
-</div>
+```html
+<DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+```
 
 __XHTML 1.0 Doctype__
-<div class="highlight highlight-HTML">
-	<pre>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
-&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;</pre>
-</div>
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+``
 
 __HTML5 Doctype__
 ```html
-	<!DOCTYPE html>
+<!DOCTYPE html>
 ```
 
 

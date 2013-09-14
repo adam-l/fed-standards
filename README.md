@@ -10,12 +10,12 @@ If you have any good ideas on how my set of standards might be improved, please 
 			<li><a href="#line-endings">Line Endings</a></li>
 			<li><a href="#encoding">Encoding</a></li>
 			<li><a href="#indentation">Indentation</a></li>
-			<li><a href="#mastering-your-editor">Plugins</a></li>
+			<li><a href="#plugins">Plugins</a></li>
 		</ul>
 	</li>
-	<li><a href="#html">HTML Coding Standards</a>
+	<li><a href="#html-coding-standards">HTML Coding Standards</a>
 		<ul>
-			<li><a href="#">Doctype</a></li>
+			<li><a href="#doctype">Doctype</a></li>
 			<li><a href="#">Indendation</a></li>
 			<li><a href="#">Conditional comments</a></li>
 			<li><a href="#">Single Line Comments</a></li>
@@ -90,40 +90,33 @@ I do not use many plugins when I write code. One plugin that I personally find v
 ## Doctype
 Enforce standards mode in web browser by putting a doctype at the beginning of your HTML document. Having the doctype is also neccessary for validating against HTML and XHTML specifications.
 
+### HTML 4.01 Doctype
+<div class="highlight">
+	<pre><span class="cp">&lt;DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</span></pre>
+</div>
+
+### XHTML 1.0 Doctype
+<div class="highlight">
+	<pre><span class="cp">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;</span></pre>
+</div>
+
 ### HTML5 Doctype
 <div class="highlight">
-<pre>
-<span class="cp">&lt;!DOCTYPE html&gt;</span></pre>
-		</div>
-		<h3>Indendation</h3>
-		<h3>Single line comments</h3>
-		<h3>Attribute order</h3>
+	<pre><span class="cp">&lt;!DOCTYPE html&gt;</span></pre>
+</div>
 
 
-***
+## Indentation
+Use proper indentation to maximize code readability.
 
-#HTML Coding Standards
-### Most overused HTML tags
-Div and span elements are one of most overused tags. Dont use the <div /> element where you can a more accurate tag like:
-* header
-* nav
-* aside - footnotes, sidebards ("tangentialy related content")
-* article - content that can be syndicated and make sense on their own (ie. blog entries)
-* section - a block that has a header or at least a heading
-* figure
-* main
-* footer
 
-Use inline elements such as:
-* strong - for adding importance
-* address
-* dl - a list of defintions
-* ins
-* del
-* blockquote
-* abbr
-* time
-* em
-* fieldset
+__Correct__
+<div class="highlight">
+	<pre>&lt;DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</pre>
+</div>
 
-***
+__Wrong__
+<div class="highlight">
+	<pre><span class="cp">&lt;DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</span></pre>
+</div>

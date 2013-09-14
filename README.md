@@ -113,7 +113,7 @@ __XHTML 1.0 Doctype__
 </div>
 
 __HTML5 Doctype__
-```
+```html
 	<!DOCTYPE html>
 ```
 

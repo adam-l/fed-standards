@@ -114,7 +114,7 @@ __XHTML 1.0 Doctype__
 
 __HTML5 Doctype__
 ```
-	<pre>&lt;!DOCTYPE html&gt;</pre>
+	<!DOCTYPE html>
 ```
 
 

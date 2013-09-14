@@ -61,6 +61,7 @@ Choose one type of line endings for the project that you and the rest of the tea
 ### Resources:
 * <a target="_blank" href="http://docs.sublimetext.info/en/latest/reference/settings.html#system-and-miscellaneous-settings">Sublime Text Docs: System and Miscellaneous Settings</a>
 
+***
 
 ## Encoding
 UTF-8 encoding dominated the Wold Wide Web and is generally the most recommended option when it come's to encoding. UTF-8 can for example prevent you from issues common for data migration.
@@ -70,6 +71,7 @@ UTF-8 encoding dominated the Wold Wide Web and is generally the most recommended
 * <a target="_blank" href="http://www.utf8everywhere.org/">UTF-8 Everywhere</a>
 * <a target="_blank" href="http://annevankesteren.nl/2009/09/utf-8-reasons">Technical Reasons To Use UTF-8</a>
 
+***
 
 ## Indentation
 I prefer using tabs over spaces. I use one tab character for indentation. I believe that a good developer should adapt to the way the team decided to work (whenever it's reasonable). That means that even when you prefer to use tabs - just like myself - you should switch to spaces if this the way your team is already working.
@@ -77,6 +79,7 @@ I prefer using tabs over spaces. I use one tab character for indentation. I beli
 ### Resources:
 * <a target="_blank" href="http://chimera.labs.oreilly.com/books/1234000001640/ch01.html#you_sho">Nicholas Zakas - Maintainable JavaScript (video transcript)</a>
 
+***
 
 ## Plugins
 I do not use many plugins when I write code. One plugin that I personally find very useful and can recommend is <a target="_blank" href="http://docs.emmet.io/">Emmet</a> (ex-Zen Coding).
@@ -106,10 +109,10 @@ __HTML5 Doctype__
 	<pre>&lt;!DOCTYPE html&gt;</pre>
 </div>
 
+***
 
 ## Indentation
 Use proper indentation to maximize code readability.
-
 
 __Correct__
 <div class="highlight">

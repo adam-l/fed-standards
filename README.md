@@ -17,9 +17,10 @@ If you have any good ideas on how my set of standards might be improved, please 
 		<ul>
 			<li><a href="#doctype">Doctype</a></li>
 			<li><a href="#indentation-1">Indendation</a></li>
-			<li><a href="#">Lowercase names</a></li>
+			<li><a href="#lowercase-names">Lowercase names</a></li>
+			<li><a href="#">Double quotes in HTML</a></li>
+			<li><a href="#">Single line comments</a></li>
 			<li><a href="#">Conditional comments</a></li>
-			<li><a href="#">Single Line Comments</a></li>
 			<li><a href="#">Attribute order</a></li>
 			<li><a href="#">Most overused HTML tags</a></li>
 		</ul>
@@ -125,7 +126,7 @@ __HTML5 Doctype__
 
 ## Indentation
 
-Use consistent indentation to enhance code readability. I use one tab for indenting my code. Your HTML code wil be propably readed several times - i.e. when the CSS based on your mark-up will be created or the back-end developers will work with it.
+Use consistent indentation to enhance code readability. I use one tab for each nested element. Your HTML code wil be propably readed several times - i.e. when the CSS based on your mark-up will be created or the back-end developers will work with it.
 
 __Correct__
 ```html
@@ -170,7 +171,7 @@ __Wrong__
 
 ## Lowercase names 
 
-When you use lowercase and uppercase sings in your HTML it can decrease the readability of your code. It may also cause other problems since XHTML is case sensitive. As uppercase notation would look rather unfamiliar and strange it's a good idea to use lowercase notation for elements, attributes and values.
+When you use lowercase and uppercase sings in your HTML it can decrease the readability of your code. It may also cause other problems since XHTML is case sensitive. As uppercase notation would look rather unfamiliar and strange it is a good idea to use lowercase notation for elements, attributes and values.
 
 __Correct__
 ```html
@@ -180,4 +181,34 @@ __Correct__
 __Wrong__
 ```html
 <INPUT name="SURNAME" TYPE="text" />
+```
+
+
+***
+
+
+## Single line comments
+I believe that the code that I create should be as much as self-explanatory as possible. I am aware however that in reality this can be sometimes hard to achieve. A good idea is to use an ending comment after a container
+
+__Example__
+```html
+<div class="sidebar">
+	<ul class="nav">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Articles</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+	<!-- / navigation -->
+
+	<div class="author">
+		<h2>About author</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+	</div>
+	<!-- / about author -->
+
+</div>
+<!-- / sidebar -->
 ```

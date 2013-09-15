@@ -16,7 +16,8 @@ If you have any good ideas on how my set of standards might be improved, please 
 	<li><a href="#html-coding-standards">HTML Coding Standards</a>
 		<ul>
 			<li><a href="#doctype">Doctype</a></li>
-			<li><a href="#">Indendation</a></li>
+			<li><a href="#indentation-1">Indendation</a></li>
+			<li><a href="#">Lowercase names</a></li>
 			<li><a href="#">Conditional comments</a></li>
 			<li><a href="#">Single Line Comments</a></li>
 			<li><a href="#">Attribute order</a></li>
@@ -133,15 +134,15 @@ __Correct__
 		<h1>Title</h1>
 		<p>Excepteur sint occaecat cupidatat non proident</p>
 	</header>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-	<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 	<ul>
 		<li>Ut enim ad minim veniam</li>
 		<li>Duis aute irure dolor in reprehenderit</li>
 		<li>Excepteur sint occaecat cupidatat non proident</li>
 	</ul>
 	<hr>
-	<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Excepteur sint occaecat cupidatat non proident.</p>
 </article>
 ```
 
@@ -152,13 +153,31 @@ __Wrong__
 <h1>Title</h1>
 <p>Excepteur sint occaecat cupidatat non proident</p>
 </header>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 <ul>
 <li>Ut enim ad minim veniam</li>
 <li>Duis aute irure dolor in reprehenderit</li>
 <li>Excepteur sint occaecat cupidatat non proident</li>
 </ul><hr>
-<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Excepteur sint occaecat cupidatat non proident.</p>
 </article>
+```
+
+
+***
+
+
+## Lowercase names 
+
+When you use lowercase and uppercase sings in your HTML it can decrease the readability of your code. It may also cause other problems since XHTML is case sensitive. As uppercase notation would look rather unfamiliar and strange it's a good idea to use lowercase notation for elements, attributes and values.
+
+__Correct__
+```html
+<input name="SURNAME" TYPE="text" />
+```
+
+__Wrong__
+```html
+<INPUT name="SURNAME" TYPE="text" />
 ```

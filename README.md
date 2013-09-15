@@ -108,7 +108,8 @@ __HTML 4.01 Doctype__
 
 __XHTML 1.0 Doctype__
 ```html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"></html>
 ```
 
@@ -119,3 +120,45 @@ __HTML5 Doctype__
 
 
 ***
+
+
+## Indentation
+
+Use consistent indentation to enhance code readability. I use one tab for indenting my code. Your HTML code wil be propably readed several times - i.e. when the CSS based on your mark-up will be created or the back-end developers will work with it.
+
+__Correct__
+```html
+<article>
+	<header>
+		<h1>Title</h1>
+		<p>Excepteur sint occaecat cupidatat non proident</p>
+	</header>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+	<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	<ul>
+		<li>Ut enim ad minim veniam</li>
+		<li>Duis aute irure dolor in reprehenderit</li>
+		<li>Excepteur sint occaecat cupidatat non proident</li>
+	</ul>
+	<hr>
+	<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+```
+
+__Wrong__
+```html
+<article>
+<header>
+<h1>Title</h1>
+<p>Excepteur sint occaecat cupidatat non proident</p>
+</header>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<ul>
+<li>Ut enim ad minim veniam</li>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>Excepteur sint occaecat cupidatat non proident</li>
+</ul><hr>
+<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+```

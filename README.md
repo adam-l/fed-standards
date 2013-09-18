@@ -17,8 +17,8 @@ If you have any good ideas on how my set of standards might be improved, please 
 		<ul>
 			<li><a href="#doctype">Doctype</a></li>
 			<li><a href="#indentation-1">Indendation</a></li>
+			<li><a href="#">Double quotes for attributes</a></li>
 			<li><a href="#lowercase-names">Lowercase names</a></li>
-			<li><a href="#">Double quotes in HTML</a></li>
 			<li><a href="#">Single line comments</a></li>
 			<li><a href="#">Conditional comments</a></li>
 			<li><a href="#">Attribute order</a></li>
@@ -48,6 +48,12 @@ If you have any good ideas on how my set of standards might be improved, please 
 	</li>
 	<li><a href="#workflow">FED Workflow</a>
 		<ul>
+			<li>
+				<a href="#">Reviewing the graphic files - most common problems</a>
+				<ul>
+					<li>Lack of consitency in the design</li>
+				</ul>
+			</li>
 			<li><a href="#">Creating common elements</a></li>
 			<li><a href="#">Assuring quality - the checklist</a></li>
 		</ul>
@@ -163,6 +169,31 @@ __Wrong__
 </ul><hr>
 <p>Excepteur sint occaecat cupidatat non proident.</p>
 </article>
+```
+
+
+***
+
+
+** Double quotes for attributes
+I prefer using double quotes for attributes in HTML. By all means however this is not a 'rule of thumb'. It's just my own preference.
+
+What I do think is important however, is that you should be consistent in your choosemenet. Lack of consistency in this case may result in less readable, more confusing code.
+
+__Correct__
+```html
+<p>
+	<label for="email">E-mail address:</label>
+	<input id="name" name="email" type="text" />
+</p>
+```
+
+__Wrong__
+```html
+<p>
+	<label for='email'>E-mail address:</label>
+	<input id="name" name='email' type="text" />
+</p>
 ```
 
 

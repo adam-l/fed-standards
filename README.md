@@ -175,7 +175,7 @@ __Wrong__
 ***
 
 
-** Double quotes for attributes
+## Double quotes for attributes
 I prefer using double quotes for attributes in HTML. By all means however this is not a 'rule of thumb'. It's just my own preference.
 
 What I do think is important however, is that you should be consistent in your choosemenet. Lack of consistency in this case may result in less readable, more confusing code.

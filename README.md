@@ -27,8 +27,9 @@ If you have any good ideas on how my set of standards might be improved, please 
 	</li>
 	<li><a href="#css">CSS Coding Standards</a>
 		<ul>
-			<li><a href="#">Multiline syntax</a></li>
+			<li><a href="#">Multi-line vs. single-line syntax</a></li>
 			<li><a href="#">Selectors</a></li>
+			<li><a href="#">Naming conventions</a></li>
 			<li><a href="#">!important rule</a></li>
 			<li><a href="#">Shorthands</a></li>
 			<li><a href="#">Minification</a></li>
@@ -206,7 +207,7 @@ When you use lowercase and uppercase sings in your HTML it can decrease the read
 
 __Correct__
 ```html
-<input name="SURNAME" TYPE="text" />
+<input name="surname" type="text" />
 ```
 
 __Wrong__

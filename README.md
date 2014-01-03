@@ -20,43 +20,6 @@ If you have any good ideas on how my set of standards might be improved, please 
 			<li><a href="#">Double quotes for attributes</a></li>
 			<li><a href="#lowercase-names">Lowercase names</a></li>
 			<li><a href="#">Single line comments</a></li>
-			<li><a href="#">Conditional comments</a></li>
-			<li><a href="#">Attribute order</a></li>
-			<li><a href="#">Most overused HTML tags</a></li>
-		</ul>
-	</li>
-	<li><a href="#css">CSS Coding Standards</a>
-		<ul>
-			<li><a href="#">Multi-line vs. single-line syntax</a></li>
-			<li><a href="#">Selectors</a></li>
-			<li><a href="#">Naming conventions</a></li>
-			<li><a href="#">!important rule</a></li>
-			<li><a href="#">Shorthands</a></li>
-			<li><a href="#">Minification</a></li>
-			<li><a href="#">Sprites</a></li>
-			<li><a href="#">Property order</a></li>
-			<li><a href="#">Fallback backgrounds</a></li>
-		</ul>
-	</li>
-	<li><a href="#js">JS Coding Standards</a>
-		<ul>
-			<li><a href="#">Quotation Marks</a></li>
-			<li><a href="#">Whitespace</a></li>
-			<li><a href="#">CamelCase</a></li>
-			<li><a href="#">Constructors</a></li>
-			<li><a href="#">Namespace</a></li>
-		</ul>
-	</li>
-	<li><a href="#workflow">FED Workflow</a>
-		<ul>
-			<li>
-				<a href="#">Reviewing the graphic files - most common problems</a>
-				<ul>
-					<li>Lack of consitency in the design</li>
-				</ul>
-			</li>
-			<li><a href="#">Creating common elements</a></li>
-			<li><a href="#">Assuring quality - the checklist</a></li>
 		</ul>
 	</li>
 </ul>
